@@ -17,6 +17,6 @@ pip install -r ~/code/googleSearchParser/requirements.txt
 ```
 
 * run the application
-````
+```
 python ~/code/googleSearchParser/googleSearchParser.py
 ```
