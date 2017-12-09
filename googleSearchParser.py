@@ -1,3 +1,4 @@
+#!/bin/python
 import json
 import os
 from datetime import datetime, timedelta
@@ -40,5 +41,5 @@ for jsonFile in searchableFiles:
 
 ordered_dict = OrderedDict(sorted(allParsedContents.items(), key=lambda x: parse(x[0])))
 
-for k,v in ordered_dict.items():
-    print k,v
+for givenDate,searchQuery in ordered_dict.items():
+    print givenDate,searchQuery
